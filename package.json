@@ -1,0 +1,27 @@
+{
+  "name": "ofertonescamper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "amazon": "node scrapper/shops/amazon.js",
+    "login": "node scrapper/shops/amazonLogin.js"
+  },
+  "keywords": [],
+  "author": "Miguel Alvarez <miguel.fullstack@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-paapi": "^1.0.6",
+    "axios": "^0.25.0",
+    "colors": "^1.4.0",
+    "dotenv": "^14.3.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.1.2",
+    "random-useragent": "^0.5.0",
+    "telegraf": "^4.6.0"
+  }
+}
