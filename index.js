@@ -4,6 +4,6 @@ const { amazonInit } = require("./helpers/amazonInit");
 
 connectDB();
 
-setInterval(async () => {
-    await amazonInit();
-}, hours * 3600000);
+// setInterval(async () => {
+amazonInit();
+// }, hours * 3600000);
